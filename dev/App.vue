@@ -1,7 +1,9 @@
 <template>
   <weui-tab id="app">
     <weui-tab-panel>
-      <router-view></router-view>
+      <weui-transition-fade>
+        <router-view></router-view>
+      </weui-transition-fade>
     </weui-tab-panel>
     <tabbar></tabbar>
   </weui-tab>

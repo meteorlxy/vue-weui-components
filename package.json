@@ -1,9 +1,15 @@
 {
   "name": "vue-weui-components",
-  "version": "1.0.0",
+  "version": "0.1.4",
   "description": "Vue components of WEUI",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
-  "private": true,
+  "license": "MIT",
+  "main": "dist/vue-weui-components.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meteorlxy/vue-bs-pagination.git"
+  },
+  "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",

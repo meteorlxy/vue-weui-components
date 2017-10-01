@@ -6,14 +6,14 @@
 export default {
   name: 'weui-mask',
   props: {
-    tansparent: {
+    transparent: {
       type: Boolean,
       default: false,
     }
   },
   computed: {
     maskClass () {
-      return this.tansparent ? 'weui-mask_transparent' : 'weui-mask' 
+      return this.transparent ? 'weui-mask_transparent' : 'weui-mask'
     }
   }
 }

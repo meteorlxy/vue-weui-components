@@ -5,9 +5,19 @@
   </weui-cells-title>
   <weui-cells>
     
-    <router-link :to="{ name: 'demo.article' }" tag="weui-cell">
+    <router-link :to="{ name: 'demo.actionsheet' }" tag="weui-cell">
       <weui-cell-header>
         <i class="fa fa-fw fa-file-text-o"></i> 
+      </weui-cell-header>
+      <weui-cell-body>
+        <span>ActionSheet丨弹出式菜单</span>
+      </weui-cell-body>
+      <weui-cell-footer></weui-cell-footer>
+    </router-link>
+    
+    <router-link :to="{ name: 'demo.article' }" tag="weui-cell">
+      <weui-cell-header>
+        <i class="fa fa-fw fa-file-text-o"></i>
       </weui-cell-header>
       <weui-cell-body>
         <span>Article丨文章</span>
@@ -21,6 +31,16 @@
       </weui-cell-header>
       <weui-cell-body>
         <span>Badge丨徽章</span>
+      </weui-cell-body>
+      <weui-cell-footer></weui-cell-footer>
+    </router-link>
+    
+    <router-link :to="{ name: 'demo.button' }" tag="weui-cell">
+      <weui-cell-header>
+        <i class="fa fa-fw fa-circle-o-notch"></i> 
+      </weui-cell-header>
+      <weui-cell-body>
+        <span>Button丨按钮</span>
       </weui-cell-body>
       <weui-cell-footer></weui-cell-footer>
     </router-link>

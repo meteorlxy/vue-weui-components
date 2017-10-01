@@ -1,8 +1,18 @@
+// actionsheet
+import ActionSheet from './components/actionsheet/ActionSheet'
+import ActionSheetTitle from './components/actionsheet/ActionSheetTitle'
+import ActionSheetMenu from './components/actionsheet/ActionSheetMenu'
+import ActionSheetAction from './components/actionsheet/ActionSheetAction'
+import ActionSheetCell from './components/actionsheet/ActionSheetCell'
+
 // article
 import Article from './components/article/Article'
 
 // badge
 import Badge from './components/badge/Badge'
+
+// button
+import Button from './components/button/Button'
 
 // cells
 import CellsTitle from './components/cells/CellsTitle'
@@ -24,6 +34,9 @@ import GridLabel from './components/grids/grid/GridLabel'
 
 // icon
 import Icon from './components/icon/Icon'
+
+// mask
+import Mask from './components/mask/Mask'
 
 // media-box
 import MediaBox from './components/mediabox/MediaBox'
@@ -63,11 +76,22 @@ import TabbarItem from './components/tabbar/item/TabbarItem'
 import TabbarIcon from './components/tabbar/item/TabbarIcon'
 import TabbarLabel from './components/tabbar/item/TabbarLabel'
 
+// transition
+import TransitionFade from './components/transition/TransitionFade'
+
 const VueWeuiComponents = {
+  // actionsheet
+  ActionSheet,
+  ActionSheetTitle,
+  ActionSheetMenu,
+  ActionSheetAction,
+  ActionSheetCell,
   // article
   Article,
   // badge
   Badge,
+  // button
+  Button,
   // cells
   CellsTitle,
   Cells,
@@ -85,6 +109,8 @@ const VueWeuiComponents = {
   GridLabel,
   // icon
   Icon,
+  // mask
+  Mask,
   // media-box
   MediaBox,
   MediaBoxHeader,
@@ -117,6 +143,8 @@ const VueWeuiComponents = {
   TabbarItem,
   TabbarIcon,
   TabbarLabel,
+  // transition
+  TransitionFade,
 }
 
 const VueWeui = {

@@ -2,11 +2,13 @@
 
 > Vue components of WEUI
 
+- [Online Demo](https://meteorlxy.github.io/vue-weui-components) 
+
 ## Progress
 
 - ActionSheet
-  - [ ] component
-  - [ ] doc
+  - [x] component
+  - [x] doc
 - Article
   - [x] component
   - [x] doc
@@ -14,8 +16,8 @@
   - [x] component
   - [x] doc
 - Button
-  - [ ] component
-  - [ ] doc
+  - [x] component
+  - [x] doc
 - Cells
   - [x] component
   - [x] doc

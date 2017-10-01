@@ -6,8 +6,10 @@ import Router from 'vue-router'
 
 // demo
 import Demo from '../views/demo/Demo'
+import ActionSheet from '../views/demo/actionsheet/ActionSheet'
 import Article from '../views/demo/article/Article'
 import Badge from '../views/demo/badge/Badge'
+import Button from '../views/demo/button/Button'
 import Cells from '../views/demo/cells/Cells'
 import Flex from '../views/demo/flex/Flex'
 import Grids from '../views/demo/grids/Grids'
@@ -37,6 +39,18 @@ export default new Router({
       },
       children: [
         {
+          path: 'actionsheet',
+          name: 'demo.actionsheet',
+          component: ActionSheet,
+          meta: {
+            title: 'ActionSheet',
+            offical: {
+              weui: 'https://weui.io/#actionsheet',
+              github: 'https://github.com/Tencent/weui/wiki/ActionSheet',
+            },
+          },
+        },
+        {
           path: 'article',
           name: 'demo.article',
           component: Article,
@@ -57,6 +71,18 @@ export default new Router({
             offical: {
               weui: 'https://weui.io/#badge',
               github: 'https://github.com/Tencent/weui/wiki/Badge',
+            },
+          },
+        },
+        {
+          path: 'button',
+          name: 'demo.button',
+          component: Button,
+          meta: {
+            title: 'Button',
+            offical: {
+              weui: 'https://weui.io/#button',
+              github: 'https://github.com/Tencent/weui/wiki/Button',
             },
           },
         },
