@@ -40,6 +40,12 @@ import FooterLinks from './components/footer/FooterLinks'
 import FooterLink from './components/footer/FooterLink'
 import FooterText from './components/footer/FooterText'
 
+// gallery
+import Gallery from './components/gallery/Gallery'
+import GalleryImg from './components/gallery/GalleryImg'
+import GalleryOperation from './components/gallery/GalleryOperation'
+import GalleryDelete from './components/gallery/GalleryDelete'
+
 // grids
 import Grids from './components/grids/Grids'
 import Grid from './components/grids/grid/Grid'
@@ -128,6 +134,11 @@ const VueWeuiComponents = {
   FooterLinks,
   FooterLink,
   FooterText,
+  // gallery
+  Gallery,
+  GalleryImg,
+  GalleryOperation,
+  GalleryDelete,
   // grids
   Grids,
   Grid,

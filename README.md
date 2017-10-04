@@ -8,75 +8,99 @@
 
 - ActionSheet
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Article
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Badge
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Button
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Cells
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Dialog
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Flex
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Footer
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Gallery
-  - [ ] component
+  - [x] component
+  - [x] demo
   - [ ] doc
 - Grids
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Icon
   - [x] component
-  - [x] doc
+  - [x] demo
+  - [ ] doc
 - Input
   - [ ] component
+  - [ ] demo
   - [ ] doc
 - Loadmore
   - [ ] component
+  - [ ] demo
   - [ ] doc
 - MsgPage
   - [ ] component
+  - [ ] demo
   - [ ] doc
 - Navbar
   - [x] component
+  - [ ] demo
   - [ ] doc
 - Panel
   - [x] component
+  - [ ] demo
   - [ ] doc
 - Picker
   - [ ] component
+  - [ ] demo
   - [ ] doc
 - Preview
   - [x] component
+  - [ ] demo
   - [ ] doc
 - Progress
   - [ ] component
+  - [ ] demo
   - [ ] doc
 - SearchBar
   - [ ] component
+  - [ ] demo
   - [ ] doc
 - Slider
   - [ ] component
+  - [ ] demo
   - [ ] doc
 - Tabbar
   - [x] component
+  - [ ] demo
   - [ ] doc
 - Toast
   - [ ] component
+  - [ ] demo
   - [ ] doc
 - Uploader
   - [ ] component
+  - [ ] demo
   - [ ] doc
 
 ## Build Setup

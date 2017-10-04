@@ -14,6 +14,7 @@ import Cells from '../views/demo/cells/Cells'
 import Dialog from '../views/demo/dialog/Dialog'
 import Flex from '../views/demo/flex/Flex'
 import Footer from '../views/demo/footer/Footer'
+import Gallery from '../views/demo/gallery/Gallery'
 import Grids from '../views/demo/grids/Grids'
 import Icon from '../views/demo/icon/Icon'
 
@@ -50,6 +51,9 @@ export default new Router({
               weui: 'https://weui.io/#actionsheet',
               github: 'https://github.com/Tencent/weui/wiki/ActionSheet',
             },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/actionsheet/ActionSheet.vue'
+            },
           },
         },
         {
@@ -61,6 +65,9 @@ export default new Router({
             offical: {
               weui: 'https://weui.io/#article',
               github: 'https://github.com/Tencent/weui/wiki/Article',
+            },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/article/Article.vue'
             },
           },
         },
@@ -74,6 +81,9 @@ export default new Router({
               weui: 'https://weui.io/#badge',
               github: 'https://github.com/Tencent/weui/wiki/Badge',
             },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/badge/Badge.vue'
+            },
           },
         },
         {
@@ -85,6 +95,9 @@ export default new Router({
             offical: {
               weui: 'https://weui.io/#button',
               github: 'https://github.com/Tencent/weui/wiki/Button',
+            },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/button/Button.vue'
             },
           },
         },
@@ -98,6 +111,9 @@ export default new Router({
               weui: 'https://weui.io/#cells',
               github: 'https://github.com/Tencent/weui/wiki/Cell',
             },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/cells/Cells.vue'
+            },
           },
         },
         {
@@ -110,6 +126,9 @@ export default new Router({
               weui: 'https://weui.io/#dialog',
               github: 'https://github.com/Tencent/weui/wiki/Dialog',
             },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/dialog/Dialog.vue'
+            },
           },
         },
         {
@@ -120,6 +139,9 @@ export default new Router({
             title: 'Flex',
             offical: {
               github: 'https://github.com/Tencent/weui/wiki/Flex',
+            },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/flex/Flex.vue'
             },
           },
         },
@@ -133,6 +155,24 @@ export default new Router({
               weui: 'https://weui.io/#footer',
               github: 'https://github.com/Tencent/weui/wiki/Footer',
             },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/footer/Footer.vue'
+            },
+          },
+        },
+        {
+          path: 'gallery',
+          name: 'demo.gallery',
+          component: Gallery,
+          meta: {
+            title: 'Gallery',
+            offical: {
+              weui: 'https://weui.io/#gallery',
+              github: 'https://github.com/Tencent/weui/wiki/Gallery',
+            },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/gallery/Gallery.vue'
+            },
           },
         },
         {
@@ -145,6 +185,9 @@ export default new Router({
               weui: 'https://weui.io/#grid',
               github: 'https://github.com/Tencent/weui/wiki/Grid',
             },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/grids/Grids.vue'
+            },
           },
         },
         {
@@ -156,6 +199,9 @@ export default new Router({
             offical: {
               weui: 'https://weui.io/#icons',
               github: 'https://github.com/Tencent/weui/wiki/Icon',
+            },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/icon/Icon.vue'
             },
           },
         },

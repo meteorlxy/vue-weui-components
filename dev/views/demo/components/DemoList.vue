@@ -77,10 +77,20 @@
     
     <router-link :to="{ name: 'demo.footer' }" tag="weui-cell">
       <weui-cell-header>
-        <i class="fa fa-fw fa-columns"></i> 
+        <i class="fa fa-fw fa-ellipsis-h"></i> 
       </weui-cell-header>
       <weui-cell-body>
         <span>Footer丨页脚</span>
+      </weui-cell-body>
+      <weui-cell-footer></weui-cell-footer>
+    </router-link>
+    
+    <router-link :to="{ name: 'demo.gallery' }" tag="weui-cell">
+      <weui-cell-header>
+        <i class="fa fa-fw fa-photo"></i> 
+      </weui-cell-header>
+      <weui-cell-body>
+        <span>Gallery丨图片展示</span>
       </weui-cell-body>
       <weui-cell-footer></weui-cell-footer>
     </router-link>

@@ -6,6 +6,10 @@
 export default {
   name: 'weui-icon',
   props: {
+    /**
+     * Type of icon
+     * {'circle'|'download'|'info'|'safe-success'|'safe-warn'|'success'|'success-circle'|'success-no-cicle'|'waiting'|'waiting-circle'|'warn'|'info-circle'|'cancel'|'search'|'clear'|'back'|'delete'}
+     */
     type: {
       type: String,
       required: true,
