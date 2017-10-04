@@ -7,7 +7,7 @@
     
     <router-link :to="{ name: 'demo.actionsheet' }" tag="weui-cell">
       <weui-cell-header>
-        <i class="fa fa-fw fa-file-text-o"></i> 
+        <i class="fa fa-fw fa-bars"></i> 
       </weui-cell-header>
       <weui-cell-body>
         <span>ActionSheet丨弹出式菜单</span>
@@ -55,12 +55,32 @@
       <weui-cell-footer></weui-cell-footer>
     </router-link>
     
+    <router-link :to="{ name: 'demo.dialog' }" tag="weui-cell">
+      <weui-cell-header>
+        <i class="fa fa-fw fa-calendar-check-o"></i> 
+      </weui-cell-header>
+      <weui-cell-body>
+        <span>Dialog丨对话框</span>
+      </weui-cell-body>
+      <weui-cell-footer></weui-cell-footer>
+    </router-link>
+    
     <router-link :to="{ name: 'demo.flex' }" tag="weui-cell">
       <weui-cell-header>
         <i class="fa fa-fw fa-columns"></i> 
       </weui-cell-header>
       <weui-cell-body>
         <span>Flex丨布局</span>
+      </weui-cell-body>
+      <weui-cell-footer></weui-cell-footer>
+    </router-link>
+    
+    <router-link :to="{ name: 'demo.footer' }" tag="weui-cell">
+      <weui-cell-header>
+        <i class="fa fa-fw fa-columns"></i> 
+      </weui-cell-header>
+      <weui-cell-body>
+        <span>Footer丨页脚</span>
       </weui-cell-body>
       <weui-cell-footer></weui-cell-footer>
     </router-link>

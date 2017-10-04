@@ -1,22 +1,18 @@
 <template>
-  <div>
-    <transition 
+  <div v-show="show">
+    <transition
       name="fade"
       enter-active-class="weui-animate-fade-in"
       leave-active-class="weui-animate-fade-out">
         <weui-mask v-show="show" :transparent="maskTransparent" @click.native="clickMask"></weui-mask>
     </transition>
-    <div class="weui-actionsheet" :class="actionSheetClass">
+    <div class="weui-dialog" :class="dialogClass">
       <slot>
-        <!--<weui-action-sheet-menu>-->
-        <!--  <weui-action-sheet-cell>示例菜单</weui-action-sheet-cell>-->
-        <!--  <weui-action-sheet-cell>示例菜单</weui-action-sheet-cell>-->
-        <!--  <weui-action-sheet-cell>示例菜单</weui-action-sheet-cell>-->
-        <!--  <weui-action-sheet-cell>示例菜单</weui-action-sheet-cell>-->
-        <!--</weui-action-sheet-menu>-->
-        <!--<weui-action-sheet-action>-->
-        <!--  <weui-action-sheet-cell>取消</weui-action-sheet-cell>-->
-        <!--</weui-action-sheet-action>-->
+        <!--<weui-dialog-header>弹窗标题</weui-dialog-header>-->
+        <!--<weui-dialog-body>弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内</weui-dialog-body>-->
+        <!--<weui-dialog-footer>-->
+        <!--  <weui-dialog-btn type="primary">知道了</weui-dialog-btn>-->
+        <!--</weui-dialog-footer>-->
       </slot>
     </div>
   </div>
@@ -24,7 +20,7 @@
 
 <script>
 export default {
-  name: 'weui-action-sheet',
+  name: 'weui-dialog',
   props: {
     show: {
       type: Boolean,
@@ -40,13 +36,12 @@ export default {
     },
     closeOnClickMask: {
       type: Boolean,
-      default: true,
+      default: false,
     },
   },
   computed: {
-    actionSheetClass () {
+    dialogClass () {
       return {
-        'weui-actionsheet_toggle': this.show,
         'weui-skin_android': this.android,
       }
     }
@@ -54,10 +49,10 @@ export default {
   methods: {
     clickMask () {
       if (this.closeOnClickMask) {
-        this.closeActionSheet()
+        this.closeDialog()
       }
     },
-    closeActionSheet () {
+    closeDialog () {
       this.$emit('update:show', false)
     },
   }

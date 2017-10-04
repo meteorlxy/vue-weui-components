@@ -22,9 +22,23 @@ import CellHeader from './components/cells/cell/CellHeader'
 import CellBody from './components/cells/cell/CellBody'
 import CellFooter from './components/cells/cell/CellFooter'
 
+// dialog
+import Dialog from './components/dialog/Dialog'
+import DialogHeader from './components/dialog/DialogHeader'
+import DialogBody from './components/dialog/DialogBody'
+import DialogFooter from './components/dialog/DialogFooter'
+import DialogTitle from './components/dialog/DialogTitle'
+import DialogBtn from './components/dialog/DialogBtn'
+
 // flex
 import Flex from './components/flex/Flex'
 import FlexItem from './components/flex/FlexItem'
+
+// footer
+import Footer from './components/footer/Footer'
+import FooterLinks from './components/footer/FooterLinks'
+import FooterLink from './components/footer/FooterLink'
+import FooterText from './components/footer/FooterText'
 
 // grids
 import Grids from './components/grids/Grids'
@@ -99,9 +113,21 @@ const VueWeuiComponents = {
   CellHeader,
   CellBody,
   CellFooter,
+  // dialog
+  Dialog,
+  DialogHeader,
+  DialogBody,
+  DialogFooter,
+  DialogTitle,
+  DialogBtn,
   // flex
   Flex,
   FlexItem,
+  // footer
+  Footer,
+  FooterLinks,
+  FooterLink,
+  FooterText,
   // grids
   Grids,
   Grid,

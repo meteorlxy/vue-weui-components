@@ -19,5 +19,9 @@ export default {
     margin-right: 5px;
     display: block;
   }
+  img {
+    height: 20px;
+    width: 20px;
+  }
 }
 </style>

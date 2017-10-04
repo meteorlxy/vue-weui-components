@@ -22,14 +22,14 @@
   - [x] component
   - [x] doc
 - Dialog
-  - [ ] component
-  - [ ] doc
+  - [x] component
+  - [x] doc
 - Flex
   - [x] component
   - [x] doc
 - Footer
-  - [ ] component
-  - [ ] doc
+  - [x] component
+  - [x] doc
 - Gallery
   - [ ] component
   - [ ] doc

@@ -1,8 +1,7 @@
 <template>
 <div>
-  
   <weui-button @click.native="show.ios = true">iOS ActionSheet</weui-button>
-  <weui-button @click.native="show.android = !show.android">Android ActionSheet</weui-button>
+  <weui-button @click.native="show.android = true">Android ActionSheet</weui-button>
   
   <weui-action-sheet :show.sync="show.ios">
     <weui-action-sheet-title>
@@ -30,9 +29,6 @@
       <weui-action-sheet-cell>示例菜单</weui-action-sheet-cell>
     </weui-action-sheet-menu>
   </weui-action-sheet>
-  
-  
-  
 </div>
 </template>
 

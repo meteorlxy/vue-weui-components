@@ -11,7 +11,9 @@ import Article from '../views/demo/article/Article'
 import Badge from '../views/demo/badge/Badge'
 import Button from '../views/demo/button/Button'
 import Cells from '../views/demo/cells/Cells'
+import Dialog from '../views/demo/dialog/Dialog'
 import Flex from '../views/demo/flex/Flex'
+import Footer from '../views/demo/footer/Footer'
 import Grids from '../views/demo/grids/Grids'
 import Icon from '../views/demo/icon/Icon'
 
@@ -99,6 +101,18 @@ export default new Router({
           },
         },
         {
+          path: 'dialog',
+          name: 'demo.dialog',
+          component: Dialog,
+          meta: {
+            title: 'Dialog',
+            offical: {
+              weui: 'https://weui.io/#dialog',
+              github: 'https://github.com/Tencent/weui/wiki/Dialog',
+            },
+          },
+        },
+        {
           path: 'flex',
           name: 'demo.flex',
           component: Flex,
@@ -106,6 +120,18 @@ export default new Router({
             title: 'Flex',
             offical: {
               github: 'https://github.com/Tencent/weui/wiki/Flex',
+            },
+          },
+        },
+        {
+          path: 'footer',
+          name: 'demo.footer',
+          component: Footer,
+          meta: {
+            title: 'Footer',
+            offical: {
+              weui: 'https://weui.io/#footer',
+              github: 'https://github.com/Tencent/weui/wiki/Footer',
             },
           },
         },
