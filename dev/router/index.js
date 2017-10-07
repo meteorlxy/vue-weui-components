@@ -18,6 +18,7 @@ import Gallery from '../views/demo/gallery/Gallery'
 import Grids from '../views/demo/grids/Grids'
 import Icon from '../views/demo/icon/Icon'
 import Input from '../views/demo/input/Input'
+import Loadmore from '../views/demo/loadmore/Loadmore'
 
 // about
 import About from '../views/about/About'
@@ -218,6 +219,21 @@ export default new Router({
             },
             mine: {
               demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/input/Input.vue'
+            },
+          },
+        },
+        {
+          path: 'loadmore',
+          name: 'demo.loadmore',
+          component: Loadmore,
+          meta: {
+            title: 'Loadmore',
+            offical: {
+              weui: 'https://weui.io/#loadmore',
+              github: 'https://github.com/Tencent/weui/wiki/Loadmore',
+            },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/loadmore/Loadmore.vue'
             },
           },
         },

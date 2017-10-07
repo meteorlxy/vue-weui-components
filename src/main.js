@@ -66,6 +66,9 @@ import InputAgree from './components/input/InputAgree'
 import Select from './components/input/Select'
 import Textarea from './components/input/Textarea'
 
+// loadmore
+import Loadmore from './components/loadmore/Loadmore'
+
 // mask
 import Mask from './components/mask/Mask'
 
@@ -167,6 +170,8 @@ const VueWeuiComponents = {
   InputAgree,
   Select,
   Textarea,
+  // loadmore
+  Loadmore,
   // mask
   Mask,
   // media-box

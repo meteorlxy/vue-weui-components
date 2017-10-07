@@ -125,6 +125,16 @@
       <weui-cell-footer></weui-cell-footer>
     </router-link>
     
+    <router-link :to="{ name: 'demo.loadmore' }" tag="weui-cell">
+      <weui-cell-header>
+        <i class="fa fa-fw fa-spinner"></i> 
+      </weui-cell-header>
+      <weui-cell-body>
+        <span>Loadmore丨加载更多</span>
+      </weui-cell-body>
+      <weui-cell-footer></weui-cell-footer>
+    </router-link>
+    
   </weui-cells>
 </div>
 </template>

@@ -55,8 +55,8 @@
   - [x] demo
   - [ ] doc
 - Loadmore
-  - [ ] component
-  - [ ] demo
+  - [x] component
+  - [x] demo
   - [ ] doc
 - MsgPage
   - [ ] component
