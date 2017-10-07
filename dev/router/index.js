@@ -17,6 +17,7 @@ import Footer from '../views/demo/footer/Footer'
 import Gallery from '../views/demo/gallery/Gallery'
 import Grids from '../views/demo/grids/Grids'
 import Icon from '../views/demo/icon/Icon'
+import Input from '../views/demo/input/Input'
 
 // about
 import About from '../views/about/About'
@@ -202,6 +203,21 @@ export default new Router({
             },
             mine: {
               demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/icon/Icon.vue'
+            },
+          },
+        },
+        {
+          path: 'input',
+          name: 'demo.input',
+          component: Input,
+          meta: {
+            title: 'Input',
+            offical: {
+              weui: 'https://weui.io/#input',
+              github: 'https://github.com/Tencent/weui/wiki/Input',
+            },
+            mine: {
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/input/Input.vue'
             },
           },
         },

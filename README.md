@@ -51,8 +51,8 @@
   - [x] demo
   - [ ] doc
 - Input
-  - [ ] component
-  - [ ] demo
+  - [x] component
+  - [x] demo
   - [ ] doc
 - Loadmore
   - [ ] component

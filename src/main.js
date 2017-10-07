@@ -13,10 +13,12 @@ import Badge from './components/badge/Badge'
 
 // button
 import Button from './components/button/Button'
+import ButtonArea from './components/button/ButtonArea'
 
 // cells
-import CellsTitle from './components/cells/CellsTitle'
 import Cells from './components/cells/Cells'
+import CellsTitle from './components/cells/CellsTitle'
+import CellsTips from './components/cells/CellsTips'
 import Cell from './components/cells/cell/Cell'
 import CellHeader from './components/cells/cell/CellHeader'
 import CellBody from './components/cells/cell/CellBody'
@@ -54,6 +56,15 @@ import GridLabel from './components/grids/grid/GridLabel'
 
 // icon
 import Icon from './components/icon/Icon'
+
+// input
+import Input from './components/input/Input'
+import InputRadio from './components/input/InputRadio'
+import InputCheckbox from './components/input/InputCheckbox'
+import InputSwitch from './components/input/InputSwitch'
+import InputAgree from './components/input/InputAgree'
+import Select from './components/input/Select'
+import Textarea from './components/input/Textarea'
 
 // mask
 import Mask from './components/mask/Mask'
@@ -112,9 +123,11 @@ const VueWeuiComponents = {
   Badge,
   // button
   Button,
+  ButtonArea,
   // cells
-  CellsTitle,
   Cells,
+  CellsTitle,
+  CellsTips,
   Cell,
   CellHeader,
   CellBody,
@@ -146,6 +159,14 @@ const VueWeuiComponents = {
   GridLabel,
   // icon
   Icon,
+  // input
+  Input,
+  InputRadio,
+  InputCheckbox,
+  InputSwitch,
+  InputAgree,
+  Select,
+  Textarea,
   // mask
   Mask,
   // media-box

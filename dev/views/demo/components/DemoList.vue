@@ -115,6 +115,16 @@
       <weui-cell-footer></weui-cell-footer>
     </router-link>
     
+    <router-link :to="{ name: 'demo.input' }" tag="weui-cell">
+      <weui-cell-header>
+        <i class="fa fa-fw fa-check-square-o"></i> 
+      </weui-cell-header>
+      <weui-cell-body>
+        <span>Input丨表单输入</span>
+      </weui-cell-body>
+      <weui-cell-footer></weui-cell-footer>
+    </router-link>
+    
   </weui-cells>
 </div>
 </template>

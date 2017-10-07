@@ -16,6 +16,10 @@ export default {
   name: 'weui-cell',
   props: {
     href: String,
+    access: {
+      type: Boolean,
+      default: true,
+    },
     link: {
       type: Boolean,
       default: false,
@@ -24,7 +28,7 @@ export default {
   computed: {
     cellClass () {
       return {
-        'weui-cell_access': Boolean(this.realHref),
+        'weui-cell_access': this.access,
         'weui-cell_link': this.link,
       }
     },
