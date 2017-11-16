@@ -1,9 +1,12 @@
 <template>
   <label class="weui-agree">
-    <input class="weui-agree__checkbox"
-      type="checkbox"
+    <input
       v-model="modelValue"
-      :name="name">
+      class="weui-agree__checkbox"
+      type="checkbox"
+      :name="name"
+    >
+    
     <span class="weui-agree__text">
       <slot>
         <!--阅读并同意<a href="javascript:void(0);">《相关条款》</a>-->
@@ -15,7 +18,7 @@
 <script>
 import mixinInputModel from './mixins/mixinInputModel'
 export default {
-  name: 'weui-input-agree',
+  name: 'WeuiInputAgree',
   mixins: [mixinInputModel],
   props: {
     name: {

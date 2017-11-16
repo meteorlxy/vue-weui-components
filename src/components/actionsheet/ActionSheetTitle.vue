@@ -10,6 +10,6 @@
 
 <script>
 export default {
-  name: 'weui-action-sheet-title',
+  name: 'WeuiActionSheetTitle',
 }
 </script>

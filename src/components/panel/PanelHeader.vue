@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'weui-panel-header',
+  name: 'WeuiPanelHeader',
 }
 </script>

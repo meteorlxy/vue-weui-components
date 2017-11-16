@@ -58,9 +58,9 @@
   - [x] component
   - [x] demo
   - [ ] doc
-- MsgPage
-  - [ ] component
-  - [ ] demo
+- Msg
+  - [x] component
+  - [x] demo
   - [ ] doc
 - Navbar
   - [x] component

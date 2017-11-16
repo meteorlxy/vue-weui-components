@@ -1,5 +1,8 @@
 <template>
-  <div class="weui-actionsheet__cell" @click="$emit('click', $event)">
+  <div
+    class="weui-actionsheet__cell"
+    @click="$emit('click', $event)"
+  >
     <slot>
       <!--菜单内容-->
     </slot>
@@ -8,6 +11,6 @@
 
 <script>
 export default {
-  name: 'weui-action-sheet-cell',
+  name: 'WeuiActionSheetCell',
 }
 </script>

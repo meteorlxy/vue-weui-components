@@ -45,7 +45,7 @@ import FooterText from './components/footer/FooterText'
 // gallery
 import Gallery from './components/gallery/Gallery'
 import GalleryImg from './components/gallery/GalleryImg'
-import GalleryOperation from './components/gallery/GalleryOperation'
+import GalleryOpr from './components/gallery/GalleryOpr'
 import GalleryDelete from './components/gallery/GalleryDelete'
 
 // grids
@@ -80,6 +80,15 @@ import MediaBoxTitle from './components/mediabox/MediaBoxTitle'
 import MediaBoxDesc from './components/mediabox/MediaBoxDesc'
 import MediaBoxInfo from './components/mediabox/MediaBoxInfo'
 import MediaBoxInfoMeta from './components/mediabox/MediaBoxInfoMeta'
+
+// msg
+import Msg from './components/msg/Msg'
+import MsgIcon from './components/msg/MsgIcon'
+import MsgText from './components/msg/MsgText'
+import MsgTitle from './components/msg/MsgTitle'
+import MsgDesc from './components/msg/MsgDesc'
+import MsgOpr from './components/msg/MsgOpr'
+import MsgExtra from './components/msg/MsgExtra'
 
 // navbar
 import Navbar from './components/navbar/Navbar'
@@ -153,7 +162,7 @@ const VueWeuiComponents = {
   // gallery
   Gallery,
   GalleryImg,
-  GalleryOperation,
+  GalleryOpr,
   GalleryDelete,
   // grids
   Grids,
@@ -182,6 +191,14 @@ const VueWeuiComponents = {
   MediaBoxDesc,
   MediaBoxInfo,
   MediaBoxInfoMeta,
+  // msgp
+  Msg,
+  MsgIcon,
+  MsgText,
+  MsgTitle,
+  MsgDesc,
+  MsgOpr,
+  MsgExtra,
   // navbar
   Navbar,
   NavbarItem,

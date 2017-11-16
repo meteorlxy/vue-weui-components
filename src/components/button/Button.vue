@@ -1,6 +1,15 @@
 <template>
-  <button class="weui-btn" :class="buttonClass" :style="buttonStyle" @click="$emit('click', $event)">
-    <i class="weui-loading" v-if="loading"></i>
+  <button
+    class="weui-btn"
+    :class="buttonClass"
+    :style="buttonStyle"
+    @click="$emit('click', $event)"
+  >
+    <i
+      v-if="loading"
+      class="weui-loading"
+    ></i>
+    
     <slot>
       <!--按钮内容-->
     </slot>
@@ -9,7 +18,7 @@
 
 <script>
 export default {
-  name: 'weui-button',
+  name: 'WeuiButton',
   props: {
     type: {
       type: String,

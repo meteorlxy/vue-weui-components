@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'weui-grids',
+  name: 'WeuiGrids',
 }
 </script>

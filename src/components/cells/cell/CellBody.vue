@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'weui-cell-body',
+  name: 'WeuiCellBbody',
 }
 </script>
 

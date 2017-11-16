@@ -1,6 +1,13 @@
 <template>
-  <div class="weui-loadmore" :class="loadmoreClass">
-    <i class="weui-loading" v-show="loading"></i>
+  <div
+    class="weui-loadmore"
+    :class="loadmoreClass"
+  >
+    <i
+      v-show="loading"
+      class="weui-loading"
+    ></i>
+    
     <span class="weui-loadmore__tips">
       <template v-if="!dot">
         <template v-if="loading">{{ loadingText }}</template>
@@ -12,7 +19,7 @@
 
 <script>
 export default {
-  name: 'weui-loadmore',
+  name: 'WeuiLoadmore',
   props: {
     loading: {
       type: Boolean,

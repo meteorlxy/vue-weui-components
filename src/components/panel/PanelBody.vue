@@ -1,13 +1,13 @@
 <template>
   <div class="weui-panel__bd">
     <slot>
-      <!--<weui-media-box type="text"></weui-media-box>-->
+      <!--<WeuiMediaBox type="text"></WeuiMediaBox>-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-panel-header',
+  name: 'WeuiPanelBody',
 }
 </script>

@@ -1,15 +1,15 @@
 <template>
   <div class="weui-actionsheet__menu">
     <slot>
-      <!--<weui-action-sheet-cell></weui-action-sheet-cell>-->
-      <!--<weui-action-sheet-cell></weui-action-sheet-cell>-->
-      <!--<weui-action-sheet-cell></weui-action-sheet-cell>-->
+      <!--<WeuiActionSheetCell></WeuiActionSheetCell>-->
+      <!--<WeuiActionSheetCell></WeuiActionSheetCell>-->
+      <!--<WeuiActionSheetCell></WeuiActionSheetCell>-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-action-sheet-menu',
+  name: 'WeuiActionSheetMenu',
 }
 </script>

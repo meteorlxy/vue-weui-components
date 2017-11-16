@@ -1,29 +1,33 @@
 <template>
   <label class="weui-cell weui-check__label">
-    <weui-cell-body>
+    <WeuiCellBody>
       <p>
         <slot>
           <!--选项内容-->
         </slot>
       </p>
-    </weui-cell-body>
-    <weui-cell-footer>
-      <input class="weui-check"
-        type="radio"
+    </WeuiCellBody>
+    
+    <WeuiCellFooter>
+      <input
         v-model="modelValue"
+        class="weui-check"
+        type="radio"
         :name="name"
         :value="value"
         :required="required"
-        :tips="tips">
-      <weui-icon type="checked"></weui-icon>
-    </weui-cell-footer>
+        :tips="tips"
+      >
+      
+      <WeuiIcon type="checked" />
+    </WeuiCellFooter>
   </label>
 </template>
 
 <script>
 import mixinInputModel from './mixins/mixinInputModel'
 export default {
-  name: 'weui-input-radio',
+  name: 'WeuiInputRadio',
   mixins: [mixinInputModel],
   props: {
     name: {

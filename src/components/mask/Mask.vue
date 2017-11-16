@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'weui-mask',
+  name: 'WeuiMask',
   props: {
     transparent: {
       type: Boolean,

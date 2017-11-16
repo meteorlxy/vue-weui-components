@@ -1,37 +1,39 @@
 <template>
   <div class="weui-cell weui-cell_select" :class="selectClass">
-    <weui-cell-header v-if="place === 'after'">
+    <WeuiCellHeader v-if="place === 'after'">
       <slot name="before">
         <!--before-->
       </slot>
-    </weui-cell-header>
+    </WeuiCellHeader>
     
-    <component :is="place === 'before' ? 'weui-cell-header' : 'weui-cell-body'">
-      <select class="weui-select"
+    <component :is="place === 'before' ? 'WeuiCellHeader' : 'WeuiCellBody'">
+      <select
         v-model="modelValue"
-        :name="name">
+        class="weui-select"
+        :name="name"
+      >
         <slot>
           <!--<option value="val">text</option>-->
         </slot>
       </select>
     </component>
     
-    <weui-cell-body v-if="place === 'before'">
+    <WeuiCellBody v-if="place === 'before'">
       <slot name="after">
         <!--after-->
       </slot>
-    </weui-cell-body>
+    </WeuiCellBody>
     
-    <weui-cell-footer v-if="warn">
-      <weui-icon type="warn"></weui-icon>
-    </weui-cell-footer>
+    <WeuiCellFooter v-if="warn">
+      <WeuiIcon type="warn" />
+    </WeuiCellFooter>
   </div>
 </template>
 
 <script>
 import mixinInputModel from './mixins/mixinInputModel'
 export default {
-  name: 'weui-select',
+  name: 'WeuiSelect',
   mixins: [mixinInputModel],
   props: {
     name: {

@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'weui-grid-icon',
+  name: 'WeuiGridIcon',
 }
 </script>

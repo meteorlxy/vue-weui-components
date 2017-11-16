@@ -1,5 +1,8 @@
 <template>
-  <div class="weui-flex__item" :style="{ flex: flex }">
+  <div
+    class="weui-flex__item"
+    :style="{ flex: flex }"
+  >
     <slot>
       <!--内容-->
     </slot>
@@ -8,7 +11,7 @@
 
 <script>
 export default {
-  name: 'weui-flex-item',
+  name: 'WeuiFlexItem',
   props: {
     flex: {
       type: [Number, String],

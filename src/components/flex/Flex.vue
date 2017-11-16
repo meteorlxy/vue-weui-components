@@ -1,14 +1,14 @@
 <template>
   <div class="weui-flex">
     <slot>
-      <!--<weui-flex-item></weui-flex-item>-->
-      <!--<weui-flex-item></weui-flex-item>-->
+      <!--<WeuiFlexItem></WeuiFlexItem>-->
+      <!--<WeuiFlexItem></WeuiFlexItem>-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-flex',
+  name: 'WeuiFlex',
 }
 </script>

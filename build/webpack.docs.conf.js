@@ -13,7 +13,7 @@ var env = config.docs.env
 
 var webpackConfig = merge(baseWebpackConfig, {
   entry: {
-    app: './dev/main.js'
+    app: './src/docs/app.js'
   },
   module: {
     rules: utils.styleLoaders({
@@ -55,7 +55,7 @@ var webpackConfig = merge(baseWebpackConfig, {
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: config.docs.index,
-      template: 'dev/index.html',
+      template: 'src/docs/index.html',
       inject: true,
       minify: {
         removeComments: true,

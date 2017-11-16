@@ -1,14 +1,14 @@
 <template>
   <div class="weui-media-box__hd">
     <slot>
-      <!--<weui-icon type="success"></weui-icon>-->
+      <!--<WeuiIcon type="success" />-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-media-box-header',
+  name: 'WeuiMediaBoxHeader',
 }
 </script>
 

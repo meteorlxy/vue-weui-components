@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'weui-cells-title',
+  name: 'WeuiCellsTitle',
 }
 </script>

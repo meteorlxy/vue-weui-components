@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'weui-article',
+  name: 'WeuiArticle',
 }
 </script>

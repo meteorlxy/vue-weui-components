@@ -1,5 +1,8 @@
 <template>
-  <li class="weui-media-box__info__meta" :class="mediaInfoMetaClass">
+  <li
+    class="weui-media-box__info__meta"
+    :class="mediaInfoMetaClass"
+  >
     <slot>
       <!--附加信息-->
     </slot>
@@ -8,7 +11,7 @@
 
 <script>
 export default {
-  name: 'weui-media-box-info-meta',
+  name: 'WeuiMediaBoxInfoMeta',
   props: {
     extra: {
       type: Boolean,

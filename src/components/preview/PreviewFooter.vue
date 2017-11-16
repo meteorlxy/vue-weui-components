@@ -1,13 +1,13 @@
 <template>
   <div class="weui-form-preview__ft">
     <slot>
-      <weui-preview-btn></weui-preview-btn>
+      <!--<WeuiPreviewBtn></WeuiPreviewBtn>-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-preview-footer',
+  name: 'WeuiPreviewFooter',
 }
 </script>

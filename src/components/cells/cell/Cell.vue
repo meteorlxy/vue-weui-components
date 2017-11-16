@@ -1,19 +1,20 @@
 <template>
-  <a class="weui-cell" 
+  <a
+    class="weui-cell" 
     :class="cellClass" 
     :href="realHref" 
     @click="$emit('click', $event)">
     <slot>
-      <!--<weui-cell-header></weui-cell-header>-->
-      <!--<weui-cell-body></weui-cell-body>-->
-      <!--<weui-cell-footer></weui-cell-footer>-->
+      <!--<WeuiCellHeader></WeuiCellHeader>-->
+      <!--<WeuiCellBody></WeuiCellBody>-->
+      <!--<WeuiCellFooter></WeuiCellFooter>-->
     </slot>
   </a>
 </template>
 
 <script>
 export default {
-  name: 'weui-cell',
+  name: 'WeuiCell',
   props: {
     href: String,
     access: {

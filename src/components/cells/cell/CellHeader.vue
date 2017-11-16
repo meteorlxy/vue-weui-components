@@ -2,26 +2,34 @@
   <div class="weui-cell__hd">
     <slot>
       <!--列表开头图标-->
-      <!--<weui-icon type="circle"></weui-icon>-->
+      <!--<WeuiIcon type="circle" />-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-cell-hedaer',
+  name: 'WeuiCellHedaer',
 }
 </script>
 
 <style type="text/css" lang="scss">
+$header-margin-right: 5px;
+$header-icon-height:  23px;
+$header-icon-width:   23px;
+
 .weui-cell__hd {
   >* {
-    margin-right: 5px;
+    margin-right: $header-margin-right;
     display: block;
   }
   img {
-    height: 20px;
-    width: 20px;
+    height: $header-icon-height;
+    width: $header-icon-width;
+    margin: {
+      left: 4.6px;
+      right: 4.6px + $header-margin-right;
+    }
   }
 }
 </style>

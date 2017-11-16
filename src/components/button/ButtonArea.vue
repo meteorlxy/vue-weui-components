@@ -1,13 +1,13 @@
 <template>
   <div class="weui-btn-area">
     <slot>
-      <!--<weui-button></weui-button>-->
+      <!--<WeuiButton></WeuiButton>-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-button-area',
+  name: 'WeuiButtonArea',
 }
 </script>

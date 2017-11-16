@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'weui-dialog-body',
+  name: 'WeuiDialogBody',
 }
 </script>

@@ -1,28 +1,39 @@
 <template>
-  <label class="weui-cell" :class="textareaClass">
-    <weui-cell-body>
-      <textarea class="weui-textarea"
+  <label
+    class="weui-cell"
+    :class="textareaClass"
+  >
+    <WeuiCellBody>
+      <textarea
         v-model="modelValue"
+        class="weui-textarea"
         :name="name"
         :cols="cols"
         :rows="rows"
         :placeholder="placeholder"
         :required="required"
         :pattern="pattern"
-        :tips="tips">
-      </textarea>
-      <div class="weui-textarea-counter" v-if="limit"><span>{{ textLength }}</span>/{{ limit }}</div>
-    </weui-cell-body>
-    <weui-cell-footer v-if="hasWarn">
-      <weui-icon type="warn"></weui-icon>
-    </weui-cell-footer>
+        :tips="tips"
+      ></textarea>
+      
+      <div
+        v-if="limit"
+        class="weui-textarea-counter"
+      >
+        <span>{{ textLength }}</span>/{{ limit }}
+      </div>
+    </WeuiCellBody>
+    
+    <WeuiCellFooter v-if="hasWarn">
+      <WeuiIcon type="warn" />
+    </WeuiCellFooter>
   </label>
 </template>
 
 <script>
 import mixinInputModel from './mixins/mixinInputModel'
 export default {
-  name: 'weui-textarea',
+  name: 'WeuiTextarea',
   mixins: [mixinInputModel],
   props: {
     name: {

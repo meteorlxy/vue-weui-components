@@ -1,5 +1,9 @@
 <template>
-  <a class="weui-dialog__btn" :class="dialogBtnClass" @click="$emit('click', $event)">
+  <a
+    class="weui-dialog__btn"
+    :class="dialogBtnClass"
+    @click="$emit('click', $event)"
+  >
     <slot>
       <!--按钮内容-->
     </slot>
@@ -8,7 +12,7 @@
 
 <script>
 export default {
-  name: 'weui-dialog-btn',
+  name: 'WeuiDialogBtn',
   props: {
     type: {
       type: String,

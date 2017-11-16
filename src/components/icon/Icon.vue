@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'weui-icon',
+  name: 'WeuiIcon',
   props: {
     /**
      * Type of icon

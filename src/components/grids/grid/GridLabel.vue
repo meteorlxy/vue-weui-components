@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'weui-grid-label',
+  name: 'WeuiGridLabel',
 }
 </script>

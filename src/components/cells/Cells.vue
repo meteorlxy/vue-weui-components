@@ -1,15 +1,18 @@
 <template>
-  <div class="weui-cells" :class="cellsClass">
+  <div
+    class="weui-cells"
+    :class="cellsClass"
+  >
     <slot>
-      <!--<weui-cell></weui-cell>-->
-      <!--<weui-cell></weui-cell>-->
+      <!--<WeuiCell></WeuiCell>-->
+      <!--<WeuiCell></WeuiCell>-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-cells',
+  name: 'WeuiCells',
   props: {
     type: {
       type: String,

@@ -1,19 +1,23 @@
 <template>
-  <a class="weui-media-box" :class="mediaBoxClass" @click="$emit('click', $event)">
+  <a
+    class="weui-media-box"
+    :class="mediaBoxClass"
+    @click="$emit('click', $event)"
+  >
     <slot>
-      <!--<weui-media-box-title></weui-media-box-title>-->
-      <!--<weui-media-box-desc></weui-media-box-desc>-->
-      <!--<weui-media-box-info>-->
-      <!--  <weui-media-box-info-meta></weui-media-box-info-meta>-->
-      <!--  <weui-media-box-info-meta :extra="true"></weui-media-box-info-meta>-->
-      <!--</weui-media-box-info>-->
+      <!--<WeuiMediaBoxTitle></WeuiMediaBoxTitle>-->
+      <!--<WeuiMediaBoxDesc></WeuiMediaBoxDesc>-->
+      <!--<WeuiMediaBoxInfo>-->
+      <!--  <WeuiMediaBoxInfoMeta></WeuiMediaBoxInfoMeta>-->
+      <!--  <WeuiMediaBoxInfoMeta :extra="true"></WeuiMediaBoxInfoMeta>-->
+      <!--</WeuiMediaBoxInfo>-->
     </slot>
   </a>
 </template>
 
 <script>
 export default {
-  name: 'weui-media-box',
+  name: 'WeuiMediaBox',
   props: {
     /**
      * Type of media box

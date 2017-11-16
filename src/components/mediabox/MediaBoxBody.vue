@@ -1,8 +1,8 @@
 <template>
   <div class="weui-media-box__bd">
     <slot>
-      <!--<weui-media-box-title></weui-media-box-title>-->
-      <!--<weui-media-box-desc></weui-media-box-desc>-->
+      <!--<WeuiMediaBoxTitle></WeuiMediaBoxTitle>-->
+      <!--<WeuiMediaBoxDesc></WeuiMediaBoxDesc>-->
     </slot>
   </div>
 </template>

@@ -1,5 +1,8 @@
 <template>
-  <span class="weui-badge" :class="badgeClass">
+  <span
+    class="weui-badge"
+    :class="badgeClass"
+  >
     <slot>
       <!--要显示的数字-->
       <!--只显示红点的话留空-->
@@ -9,7 +12,7 @@
 
 <script>
 export default {
-  name: 'weui-badge',
+  name: 'WeuiBadge',
   computed: {
     badgeClass () {
       return {

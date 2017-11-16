@@ -1,11 +1,14 @@
 <template>
   <a class="weui-gallery__del">
-    <weui-icon type="delete" class="weui-icon_gallery-delete"></weui-icon>
+    <WeuiIcon
+      type="delete"
+      class="weui-icon_gallery-delete"
+    />
   </a>
 </template>
 
 <script>
 export default {
-  name: 'weui-gallery-delete',
+  name: 'WeuiGalleryDelete',
 }
 </script>

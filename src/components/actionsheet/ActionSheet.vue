@@ -1,22 +1,27 @@
 <template>
   <div>
-    <transition 
-      name="fade"
-      enter-active-class="weui-animate-fade-in"
-      leave-active-class="weui-animate-fade-out">
-        <weui-mask v-show="show" :transparent="maskTransparent" @click.native="clickMask"></weui-mask>
-    </transition>
-    <div class="weui-actionsheet" :class="actionSheetClass">
+    <WeuiTransitionFade>
+      <WeuiMask
+        v-show="show"
+        :transparent="maskTransparent"
+        @click.native="clickMask"
+      />
+    </WeuiTransitionFade>
+    
+    <div
+      class="weui-actionsheet"
+      :class="actionSheetClass"
+    >
       <slot>
-        <!--<weui-action-sheet-menu>-->
-        <!--  <weui-action-sheet-cell>示例菜单</weui-action-sheet-cell>-->
-        <!--  <weui-action-sheet-cell>示例菜单</weui-action-sheet-cell>-->
-        <!--  <weui-action-sheet-cell>示例菜单</weui-action-sheet-cell>-->
-        <!--  <weui-action-sheet-cell>示例菜单</weui-action-sheet-cell>-->
-        <!--</weui-action-sheet-menu>-->
-        <!--<weui-action-sheet-action>-->
-        <!--  <weui-action-sheet-cell>取消</weui-action-sheet-cell>-->
-        <!--</weui-action-sheet-action>-->
+        <!--<WeuiActionSheetMenu>-->
+        <!--  <WeuiActionSheetCell>示例菜单</WeuiActionSheetCell>-->
+        <!--  <WeuiActionSheetCell>示例菜单</WeuiActionSheetCell>-->
+        <!--  <WeuiActionSheetCell>示例菜单</WeuiActionSheetCell>-->
+        <!--  <WeuiActionSheetCell>示例菜单</WeuiActionSheetCell>-->
+        <!--</WeuiActionSheetMenu>-->
+        <!--<WeuiActionSheetAction>-->
+        <!--  <WeuiActionSheetCell>取消</WeuiActionSheetCell>-->
+        <!--</WeuiActionSheetAction>-->
       </slot>
     </div>
   </div>
@@ -24,7 +29,7 @@
 
 <script>
 export default {
-  name: 'weui-action-sheet',
+  name: 'WeuiActionSheet',
   props: {
     show: {
       type: Boolean,

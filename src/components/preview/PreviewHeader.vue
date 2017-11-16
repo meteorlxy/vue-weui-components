@@ -1,14 +1,14 @@
 <template>
   <div class="weui-form-preview__hd">
     <slot>
-      <label class="weui-form-preview__label">付款金额</label>
-      <span class="weui-form-preview__value">¥2400.00</span>
+      <!--<WeuiPreviewLabel></WeuiPreviewLabel>-->
+      <!--<WeuiPreviewValue></WeuiPreviewValue>-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-preview-header',
+  name: 'WeuiPreviewHeader',
 }
 </script>

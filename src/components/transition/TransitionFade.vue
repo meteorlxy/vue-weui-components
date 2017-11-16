@@ -1,21 +1,22 @@
 <template>
-  <transition 
+  <transition
     name="weui-animate-fade"
     :mode="transitionMode"
     enter-active-class="weui-animate-fade-in"
-    leave-active-class="weui-animate-fade-out">
+    leave-active-class="weui-animate-fade-out"
+  >
     <slot></slot>
   </transition>
 </template>
 
 <script>
 export default {
-  name: 'weui-transition-fade',
+  name: 'WeuiTransitionFade',
   props: {
     mode: {
       type: String,
       default: 'out-in',
-    }
+    },
   },
   computed: {
     transitionMode () {

@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'weui-media-box-title',
+  name: 'WeuiMediaBoxTitle',
 }
 </script>

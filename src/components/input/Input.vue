@@ -1,38 +1,46 @@
 <template>
-  <label class="weui-cell" :class="inputClass">
-    <weui-cell-header v-if="label">
+  <label
+    class="weui-cell"
+    :class="inputClass"
+  >
+    <WeuiCellHeader v-if="label">
       <span class="weui-label">
         <slot>
           <!--label-->
         </slot>
       </span>
-    </weui-cell-header>
-    <weui-cell-body>
-      <input class="weui-input"
+    </WeuiCellHeader>
+    
+    <WeuiCellBody>
+      <input
         ref="input"
         v-model="modelValue"
-        type="text"
+        class="weui-input"
+        :type="type"
         :name="name"
         :placeholder="placeholder"
         :required="required"
         :pattern="pattern"
-        :tips="tips">
-    </weui-cell-body>
-    <weui-cell-footer v-if="vcode">
+        :tips="tips"
+      >
+    </WeuiCellBody>
+    
+    <WeuiCellFooter v-if="vcode">
       <slot name="vcode">
         <!--<a href="javascript:;" class="weui-vcode-btn">获取验证码</a>-->
       </slot>
-    </weui-cell-footer>
-    <weui-cell-footer v-if="warn">
-      <weui-icon type="warn"></weui-icon>
-    </weui-cell-footer>
+    </WeuiCellFooter>
+    
+    <WeuiCellFooter v-if="warn">
+      <WeuiIcon type="warn" />
+    </WeuiCellFooter>
   </label>
 </template>
 
 <script>
 import mixinInputModel from './mixins/mixinInputModel'
 export default {
-  name: 'weui-input',
+  name: 'WeuiInput',
   mixins: [mixinInputModel],
   props: {
     name: {
@@ -82,9 +90,6 @@ export default {
         'weui-cell_warn': this.warn,
       }
     },
-  },
-  mounted () {
-    this.$refs.input.type = this.type
   },
 }
 </script>

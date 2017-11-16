@@ -1,17 +1,20 @@
 <template>
-  <div class="weui-gallery" :style="{ display: show ? 'block' : 'none' }">
+  <div
+    class="weui-gallery"
+    :style="{ display: show ? 'block' : 'none' }"
+  >
     <slot>
-      <!--<weui-gallery-img></weui-gallery-img>-->
-      <!--<weui-gallery-operation>-->
-      <!--  <weui-gallery-delete></weui-gallery-delete>-->
-      <!--</weui-gallery-operation>-->
+      <!--<WeuiGalleryImg />-->
+      <!--<WeuiGalleryOpr>-->
+      <!--  <WeuiGalleryDelete />-->
+      <!--</WeuiGalleryOpr>-->
     </slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'weui-gallery',
+  name: 'WeuiGallery',
   props: {
     show: {
       type: Boolean,

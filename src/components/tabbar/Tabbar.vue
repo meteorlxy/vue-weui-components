@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: 'weui-tabbar',
+  name: 'WeuiTabbar',
 }
 </script>

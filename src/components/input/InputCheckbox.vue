@@ -1,32 +1,36 @@
 <template>
   <label class="weui-cell weui-check__label">
-    <weui-cell-header>
-      <input class="weui-check"
-        type="checkbox"
+    <WeuiCellHeader>
+      <input
         v-model="modelValue"
+        class="weui-check"
+        type="checkbox"
         :name="name"
         :value="value"
         :true-value="trueValue"
         :false-value="falseValue"
         :required="required"
         :pattern="pattern"
-        :tips="tips">
-      <weui-icon type="checked"></weui-icon>
-    </weui-cell-header>
-    <weui-cell-body>
+        :tips="tips"
+      >
+      
+      <WeuiIcon type="checked" />
+    </WeuiCellHeader>
+    
+    <WeuiCellBody>
       <p>
         <slot>
           <!--选项内容-->
         </slot>
       </p>
-    </weui-cell-body>
+    </WeuiCellBody>
   </label>
 </template>
 
 <script>
 import mixinInputModel from './mixins/mixinInputModel'
 export default {
-  name: 'weui-input-checkbox',
+  name: 'InputCheckbox',
   mixins: [mixinInputModel],
   props: {
     name: {

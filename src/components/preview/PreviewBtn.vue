@@ -1,12 +1,18 @@
 <template>
-  <a class="weui-form-preview__btn" :class="previewBtnClass" @click="$emit('click', $event)">
-    <slot>按钮</slot>
+  <a
+    class="weui-form-preview__btn"
+    :class="previewBtnClass"
+    @click="$emit('click', $event)"
+  >
+    <slot>
+      <!--按钮-->
+    </slot>
   </a>
 </template>
 
 <script>
 export default {
-  name: 'weui-preview-btn',
+  name: 'WeuiPreviewBtn',
   props: {
     primary: {
       type: Boolean,

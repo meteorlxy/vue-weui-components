@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'weui-footer-text',
+  name: 'WeuiFooterText',
 }
 </script>
