@@ -59,12 +59,12 @@
 
   <WeuiCellsTitle>文本框</WeuiCellsTitle>
   <WeuiCells>
-    <WeuiInput type="text" placeholder="请输入文本" v-model="weui_text" :label="false"></WeuiInput>
+    <WeuiInput type="text" placeholder="请输入文本" v-model="weui_text" :label="false" />
   </WeuiCells>
 
   <WeuiCellsTitle>文本域</WeuiCellsTitle>
   <WeuiCells type="form">
-    <weui-textarea placeholder="请输入文本" rows="3" :limit="200" v-model="weui_textarea"></weui-textarea>
+    <WeuiTextarea placeholder="请输入文本" rows="3" :limit="200" v-model="weui_textarea" />
   </WeuiCells>
 
   <WeuiCellsTitle>选择 - 当前选择：{{ weui_select.country_code }} - 当前输入：{{ weui_select.mobile }}</WeuiCellsTitle>

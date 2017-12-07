@@ -58,7 +58,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/ActionSheet',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/actionsheet/ActionSheet.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/actionsheet/ActionSheet.vue'
             },
           },
         },
@@ -73,7 +73,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Article',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/article/Article.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/article/Article.vue'
             },
           },
         },
@@ -88,7 +88,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Badge',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/badge/Badge.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/badge/Badge.vue'
             },
           },
         },
@@ -103,7 +103,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Button',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/button/Button.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/button/Button.vue'
             },
           },
         },
@@ -118,7 +118,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Cell',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/cells/Cells.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/cells/Cells.vue'
             },
           },
         },
@@ -133,7 +133,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Dialog',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/dialog/Dialog.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/dialog/Dialog.vue'
             },
           },
         },
@@ -147,7 +147,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Flex',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/flex/Flex.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/flex/Flex.vue'
             },
           },
         },
@@ -162,7 +162,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Footer',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/footer/Footer.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/footer/Footer.vue'
             },
           },
         },
@@ -177,7 +177,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Gallery',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/gallery/Gallery.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/gallery/Gallery.vue'
             },
           },
         },
@@ -192,7 +192,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Grid',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/grids/Grids.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/grids/Grids.vue'
             },
           },
         },
@@ -207,7 +207,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Icon',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/icon/Icon.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/icon/Icon.vue'
             },
           },
         },
@@ -222,7 +222,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Input',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/input/Input.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/input/Input.vue'
             },
           },
         },
@@ -237,7 +237,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Loadmore',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/loadmore/Loadmore.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/loadmore/Loadmore.vue'
             },
           },
         },
@@ -252,7 +252,7 @@ export default new Router({
               github: 'https://github.com/Tencent/weui/wiki/Msg-Page',
             },
             mine: {
-              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/dev/views/demo/msg/Msg.vue'
+              demo_source_code: 'https://github.com/meteorlxy/vue-weui-components/blob/master/src/docs/views/demo/msg/Msg.vue'
             },
           },
         },
