@@ -14,6 +14,8 @@
         :required="required"
         :pattern="pattern"
         :tips="tips"
+        :emptyTips="emptyTips"
+        :notMatchTips="notMatchTips"
       ></textarea>
       
       <div
@@ -76,6 +78,14 @@ export default {
       type: String,
       require: false,
     },
+    emptyTips: {
+      type: String,
+      require: false,
+    },
+    notMatchTips: {
+      type: String,
+      require: false,
+    }
   },
   computed: {
     textareaClass () {
