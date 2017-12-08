@@ -44,7 +44,7 @@ export default {
   computed: {
     buttonClass () {
       return [
-        this.plain ? 'weui-btn_plain-' + this.type : 'weui-btn_' + this.type,
+        this.plain ? `weui-btn_plain-${this.type}` : `weui-btn_${this.type}`,
         this.mini ? 'weui-btn_mini' : null,
         this.loading ? 'weui-btn_loading' : null,
         this.disabled ? this.plain ? 'weui-btn_plain-disabled' : 'weui-btn_disabled' : null,

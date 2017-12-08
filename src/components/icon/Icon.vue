@@ -25,7 +25,7 @@ export default {
   },
   computed: {
     iconClass () {
-      return 'weui-icon-' + this.type
+      return `weui-icon-${this.type}`
     },
     sizeClass () {
       return this.primary ? 'weui-icon_msg-primary' : this.msg ? 'weui-icon_msg' : null

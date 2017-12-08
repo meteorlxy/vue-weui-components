@@ -21,7 +21,7 @@ export default {
   },
   computed: {
     cellsClass () {
-      return 'weui-cells_' + this.type
+      return `weui-cells_${this.type}`
     }
   },
 }
