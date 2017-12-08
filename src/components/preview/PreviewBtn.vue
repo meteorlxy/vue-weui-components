@@ -14,16 +14,16 @@
 export default {
   name: 'WeuiPreviewBtn',
   props: {
-    primary: {
-      type: Boolean,
-      default: false,
-    },
+    type: {
+      type: String,
+      default: 'default'
+    }
   },
   computed: {
     previewBtnClass () {
-      return {
-        'weui-form-preview__btn_primary': this.primary,
-      }
+      return [
+        `weui-form-preview__btn_${this.type}`,
+      ]
     },
   },
 }
